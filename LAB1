@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Self Introduction</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h2>Hello! My name is Eren, Elif.</h2>
+    
+        <h3>Here are my favorite sites:</h3>
+        <p><strong><h5>You can access them by clicking on them.</h5></strong></p>
+
+        <!-- create an unordered list-->
+        <ul>
+            <!-- create two text hyperlinks-->
+            <li><a href = "http://www.instagram.com">Instagram</a></li>
+            <li><a href = "http://www.spotify.com">Spotify</a></li>
+        </ul>
+    </body>
+
+        <body>
+        
+            <h4>The following are two of my favorite games.</h4>
+
+              <!-- create an unordered list-->
+                <ol>
+                    <!-- create two img-->
+                    <li><h3>First game is 'Bathman Arkham Knight'</h3></li>
+                        <img src="batman.jpg" alt="Batman Arkham Knight" width="200" height="250">
+                    <li><h3>Second game is 'The Wither 3 Wild Hunt'</h3></li>
+                        <img src="thewitcher3.jpg" alt="The Witcher 3" width="300" height="250">
+                </ol>    
+           
+        </body>
+
+                <body>
+                    
+                    <table border="2">
+
+                     <caption><h4>Here is my timetable for gym.</h4></caption>
+                    
+                        <thead>
+
+                            <tr>
+                                <th rowspan = "3">Timetable</th>
+                                
+                            </tr>
+                            <tr>
+                                <th colspan="4">Weekly Program</th>
+                            </tr>
+                            <tr>
+                                <th>Workout type</th>
+                                <th>Exercise days</th>
+                                <th>Exercise hours</th>
+                                <th>Calorie burn</th>
+                            </tr>
+                        </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Cardio</td>
+                                    <td>Weight loss</td>
+                                    <td>Mon, Fri</td>
+                                    <td>7, 8</td>
+                                    <td>550</td>
+                                </tr>
+                                <tr>
+                                
+                                    <td>Weight Lifting</td>
+                                    <td>Muscle gain</td>
+                                    <td>Tue, Thu</td>
+                                    <td>8, 9 or 6, 7</td>
+                                    <td>350</td>
+                                </tr>
+                                <tr>
+                                    <td>HIIT</td>
+                                    <td>Weight loss</td>
+                                    <td>Wed, Sat</td>
+                                    <td>1, 2</td>
+                                    <td>700</td>
+                                </tr>
+                                <tr>
+                                    <td>Recovery</td>
+                                    <td>None</td>
+                                    <td>Sunday</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                        
+                            </tbody>
+                    </table>        
+                </body>
+</html>
