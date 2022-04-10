@@ -1,0 +1,165 @@
+.thick {
+    border-width: 2px;
+    border-color: black;
+}
+.button {
+    height: 20px; background-color: rgb(182, 221, 221);
+    width: 20px; margin: 0em; border: 2px solid black;
+    padding: 2px 1px;
+}
+.button_two {
+    height: 20px; background-color: rgb(142, 248, 142);
+    width: 20px; margin: 1em; border: 2px solid black;
+    padding: 2px 1px;
+}
+.span {
+    color: black;
+    font-size: 14px;
+}
+.rightside {
+    position: relative;
+    right: -2ex;
+}
+.red_button {
+    padding: 2px 20px;
+    background-color: rgb(250, 61, 61);
+    margin: 0em;
+}
+.blue_button {
+    padding: 2px 20px;
+    background-color: rgb(182, 221, 221);
+}
+.lightgreen_button {
+    padding: 2px 20px;
+    background-color: rgb(142, 248, 142);
+}
+.green_button {
+    padding: 2px 20px;
+    background-color: rgb(115, 232, 115);
+}
+.Ranchers { font-family: 'Ranchers', cursive; font-size: 50px;}
+body { 
+    background-color: white; 
+    width: 1400px;
+    margin: 3rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height-step: 10px;
+    margin: 0;
+    overflow-y: hidden;
+
+}
+.first_box{
+    height: 10px;
+    width: 1020px;
+    border: 1px solid rgb(107, 1, 107);
+    margin: 0.2em auto;
+    background-color: rgb(107, 1, 107);
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+.second_box {
+    height: 50px;
+    width: 1020px;
+    border: 1px solid rgb(107, 1, 107);
+    margin: 0.2em auto;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    font-size: 35px;
+}
+.second_box p{
+    animation: hello 2s;
+}
+
+.third_box{
+    height: 50px;
+    width: 1020px;
+    border: 1px solid rgb(107, 1, 107);
+    margin: 0.2em auto;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.structure{
+    height: 500px;
+    width: 1020px;
+    border: 1px solid rgb(107, 1, 107);
+    margin: 1rem auto;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.ob{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+.ob:hover{
+    color: black;
+}
+
+img{
+    margin: 8rem;
+    transition: 2s;
+    object-fit: fill;
+
+}
+img:hover{
+    transform: rotate(360deg) scale(3.5,3.5);
+    transition: 2s;
+}
+
+h1 { font-size: 25px; 
+    font-family: 'Ranchers', cursive;
+    position: relative;
+    right: -16px;
+}
+a { 
+    color: black; 
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: none;
+}
+b {
+    text-decoration: overline underline red;
+}
+p { 
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    text-indent: 1em;
+}
+h2 {
+    margin-bottom: -5px ;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    text-indent: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hello{
+    font-size: 25px; margin-top: 10px; margin-left: -15px;
+    animation: hello default 2s;
+    overflow: hidden;
+}
+@keyframes hello{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
