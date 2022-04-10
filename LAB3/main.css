@@ -152,7 +152,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #hello{
-    font-size: 25px; margin-top: 10px; margin-left: -15px;
+    font-size: 25px; margin-top: 10px; 
     animation: hello default 2s;
     overflow: hidden;
 }
