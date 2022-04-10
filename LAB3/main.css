@@ -127,7 +127,7 @@ p {
     width: 70px;
     height: 90px;
     z-index: 10;
-    transition: 2s linear 0s;
+    transition: 2s 0s;
 }
 
 .pic:hover{
